@@ -1,0 +1,6 @@
+{
+  "name": "Melody's Spa & Family Salon",
+  "description": "Melody's Spa & Family Salon is Kolkata's premium luxury unisex family salon and spa, specializing in advanced hair treatments, high-end skin care, bridal makeup, wellness body massages, and professional grooming.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

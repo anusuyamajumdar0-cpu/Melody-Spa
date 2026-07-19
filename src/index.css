@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+  --color-gold: #C9A227;
+  --color-rosegold: #B76E79;
+  --color-gold-light: #E5C158;
+  --color-luxury-bg: #FAF8F5;
+  --color-luxury-dark: #1B1B1B;
+  --color-soft-pink: #F7D7E3;
+}
+
+/* Custom scrollbar and premium utility styling */
+html {
+  scroll-behavior: smooth;
+  color: var(--color-luxury-dark);
+  background-color: #FAF8F5; /* Matches theme background */
+}
+
+::selection {
+  background-color: var(--color-soft-pink);
+  color: var(--color-luxury-dark);
+}
+
+/* Geometric Balance Theme Utilities */
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #C9A227 0%, #E5C76B 100%);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(201, 162, 39, 0.1);
+}
+
+/* Smooth glassmorphism utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(201, 162, 39, 0.1);
+}
+
+.glass-panel-dark {
+  background: rgba(27, 27, 27, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Gold gradient button classes matching theme */
+.btn-gold-gradient {
+  background: linear-gradient(135deg, #C9A227 0%, #E5C76B 100%);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-gold-gradient:hover {
+  background: linear-gradient(135deg, #E5C76B 0%, #C9A227 100%);
+  box-shadow: 0 10px 20px -10px rgba(201, 162, 39, 0.4);
+}
+
+/* Before After slider styles */
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+}
+
